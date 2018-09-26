@@ -96,7 +96,7 @@
     
     //创建条件 年龄=10 的学生
     NSPredicate * predicate =[NSPredicate predicateWithFormat:@"age > 10"];
-    [request setPredicate:predicgitfate];
+    [request setPredicate:predicate];
     
     //获取符合条件的结果
     NSArray * resultArray =[appDelegate.persistentContainer.viewContext executeFetchRequest:request error:nil];
